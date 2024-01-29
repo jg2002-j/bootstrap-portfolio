@@ -64,9 +64,9 @@ body {
 h1 {
       /* padding: 10vh 0 2vh 0; */
       font-family:var(--header);
-      font-size: calc(35px + 2.5vw);
-      font-weight: bolder;
-      /* text-transform: lowercase; */
+      font-size: calc(35px + 2vw);
+      text-transform: uppercase;
+      letter-spacing: 5px;
       color:var(--alabaster);
       text-align: center;
       mix-blend-mode: difference;
