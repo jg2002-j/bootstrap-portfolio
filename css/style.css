@@ -150,12 +150,11 @@ span.badge{
 
 .accordion-button:not(.collapsed) {
       color: var(--bs-body-color);
-      /* background-color: var(--cardinal-red); */
       border-radius: var(--bs-border-radius);
 }
 
 .accordion-body:not(.collapsed){
-      background-color: var(--cardinal-red);
+      background-color: rgba(189, 189, 189, 0.158);
       border-radius: var(--bs-border-radius);
 }
 
@@ -168,8 +167,8 @@ span.badge{
       --bs-accordion-active-bg: transparent;
 }
 
-.accordion h3{
-      font-weight: ;
+.accordion h4{
+      font-weight: 700;
 }
 
 /* -------------------------- 
