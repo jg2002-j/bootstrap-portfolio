@@ -3,7 +3,7 @@
       --cardinal-red:#B03043;
       --alabaster:#E0E2DB;
       --main-font: 'Cabinet Grotesk', sans-serif;
-      --header: 'General Sans', sans-serif;
+      --header: 'Cabinet Grotesk', sans-serif;
       --monospace-font: 'Roboto Mono', monospace;
     }
     
@@ -64,11 +64,12 @@ body {
 h1 {
       /* padding: 10vh 0 2vh 0; */
       font-family:var(--header);
-      font-size: calc(35px + 2vw);
-      text-transform: uppercase;
-      letter-spacing: 5px;
+      font-size: calc(35px + 2.5vw);
+      font-weight: 500;
+      /* text-transform: uppercase; */
+      /* letter-spacing: 15px; */
       color:var(--alabaster);
-      text-align: center;
+      text-align: start;
       mix-blend-mode: difference;
 }
 
