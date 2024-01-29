@@ -2,8 +2,9 @@
       --onyx:#2E3532;
       --cardinal-red:#B03043;
       --alabaster:#E0E2DB;
-      --main-font:'Akkurat', 'Inter', sans-serif;
-      --header:'Unica One', sans-serif;
+      --main-font: 'Cabinet Grotesk', sans-serif;
+      --header: 'General Sans', sans-serif;
+      --monospace-font: 'Roboto Mono', monospace;
     }
     
 @font-face {
@@ -47,6 +48,10 @@ body {
 /* -------------------------- 
 |    FONTS / TEXT           |
 ---------------------------*/
+
+/* 
+
+*/
 
 #title {
       font-family: 'Bantayog';
@@ -133,7 +138,7 @@ button.navbar-toggler{
 }
 
 span.badge{
-      font-family: 'Roboto Mono', monospace;
+      font-family: var(--monospace-font);
       font-weight: 400;
       font-size: small;
 }
