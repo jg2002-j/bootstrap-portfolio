@@ -149,21 +149,14 @@ span.badge{
 }
 
 .accordion-button:not(.collapsed) {
-      color: var(--alabaster);
-      background-color: var(--cardinal-red);
-      box-shadow: 0 0 0 0;
-      border-radius: var(--bs-border-radius)
+      color: var(--bs-body-color);
+      /* background-color: var(--cardinal-red); */
+      border-radius: var(--bs-border-radius);
 }
 
-.accordion-button:focus {
-      z-index: 3;
-      border-color: transparent;
-      outline: 0;
-      box-shadow: 0 0 0 0;
-}
-
-.accordion-button {
-      background-color: transparent;
+.accordion-body:not(.collapsed){
+      /* background-color: var(--cardinal-red); */
+      border-radius: var(--bs-border-radius);
 }
 
 .accordion {
@@ -189,15 +182,6 @@ span.badge{
       --bs-accordion-body-padding-y: 1rem;
       --bs-accordion-active-color: transparent;
       --bs-accordion-active-bg: transparent;
-}
-
-.accordion-body:not(.collapsed){
-      background-color: var(--cardinal-red);
-      border-radius: var(--bs-border-radius);
-}
-
-.accordion-header{
-      font-weight: 600;
 }
 
 /* -------------------------- 
