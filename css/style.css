@@ -1,0 +1,176 @@
+:root {
+      --onyx:#2E3532;
+      --cardinal-red:#B03043;
+      --alabaster:#E0E2DB;
+      --main-font:'Akkurat', 'Inter', sans-serif;
+      --header:'Unica One', sans-serif;
+    }
+    
+@font-face {
+      font-family: Akkurat;
+      src: url(../fonts/Akkurat.ttf);
+}
+
+@font-face {
+      font-family: Bantayog;
+      src: url(../fonts/Bantayog-Regular.otf);
+}
+
+@keyframes navlinks {
+      from {letter-spacing: normal;}
+      to {letter-spacing: 2px; }
+    }
+
+@keyframes hoverimg {
+      from {border-radius: 0px;}
+      to {border-radius: 50%;}
+}
+
+/* -------------------------- 
+|    GENERAL                |
+---------------------------*/
+
+*{
+      font-family: var(--main-font);
+      scroll-behavior: smooth;
+}
+
+body {
+      background-image: url(../images/abhishek-tiwari-qcimj8DMjLE-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      backdrop-filter: blur(25px);
+      font-size: calc(20px+2vw);
+}
+
+
+/* -------------------------- 
+|    FONTS / TEXT           |
+---------------------------*/
+
+#title {
+      font-family: 'Bantayog';
+      font-size: calc(60px + 7vw);
+      letter-spacing: 5px;
+      color: var(--alabaster);
+      mix-blend-mode: difference;
+}
+
+h1 {
+      /* padding: 10vh 0 2vh 0; */
+      font-family:var(--header);
+      font-size: calc(35px + 2.5vw);
+      font-weight: bolder;
+      /* text-transform: lowercase; */
+      color:var(--alabaster);
+      text-align: center;
+      mix-blend-mode: difference;
+}
+
+/* -------------------------- 
+|    BOOTSTRAP OVERRIDES    |
+---------------------------*/
+
+/* .nav-link.active{
+      animation: navlinks 1s ease-in-out 1;
+      animation-fill-mode:forwards;
+} */
+
+li.nav-item:hover::after {
+      width: 110%;
+      left: 50%;
+    }
+
+li.nav-item::after {
+      /* background: none repeat scroll 0 0 transparent; */
+      content: "";
+      display: block;
+      height: 3px;
+      border-radius:3px;
+      position: relative;
+      background: linear-gradient(to left, #3f5625, #476965 100%);
+      width: 0;
+      left: 50%;
+      bottom: 2%;
+      transform: translateX(-50%);
+      transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+      transition: width .5s ease 0s, right .5s ease 0s;
+}
+
+.navbar-nav .nav-link.active{
+      font-weight: bold;
+      background-image: linear-gradient(to left, #668544, #66948f 100%);
+      background-size: cover;
+      background-clip: text;
+      color: transparent;
+}
+
+a.nav-link.active.dropdown-toggle::after{
+      color:#668544;
+}
+
+#navcontainer {
+      max-width:1400px;
+      padding:2vh 2vw 0 2vw;
+      margin:auto;
+      position:sticky;
+      top:0px;
+      z-index: 1000;
+}
+
+.navbar{
+      border-radius: 12.5px;
+      padding-left:1.5%;
+      padding-right:1.5%;
+}
+
+.dropdown-menu[data-bs-popper]{
+      left:auto;
+}
+
+button.navbar-toggler{
+      margin:auto;
+}
+
+span.badge{
+      font-family: 'Roboto Mono', monospace;
+      font-weight: 400;
+      font-size: small;
+}
+
+.carousel-inner{
+      border-radius: 5px;
+}
+
+
+/* -------------------------- 
+|    CUSTOM CSS             |
+---------------------------*/
+
+.coverpage{
+      display:flex;
+      align-items: center;
+      justify-content: space-around;
+      height:100vh;
+      width:100%;
+      background-image: url(../images/tony-litvyak-nHMyboz2XI8-unsplash.jpg);
+      border-radius: 0px 0px 5vw 5vw;
+      background-position: center;
+      background-size: cover;
+}
+
+.pgsect {
+      min-height: 70vh;
+      /* padding: 10vh 0 0 0; */
+}
+
+.container#aboutmeflex, .container#featuredprojflex, .container#allprojects, .container#experiences{
+      /* min-width:70vw; */
+      /* min-height: 1000px; */
+      margin: 10vh auto;
+}
+
+#aboutmeflex h1, #featuredprojflex h1, #allprojects h1, #experience h1{
+      top: 12vh;
+      z-index: 900;
+}
