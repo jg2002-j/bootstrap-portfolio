@@ -29,6 +29,7 @@ No installation required. Access the deployed GitPages website [here.](https://j
 - Browse portfolio as wanted.
 
 ![Deployed Website Screenshot](./images/deployed.png)
+![Deployed Website Screenshot](./images/deployed2.png)
 
 ## Credits
 - Icons at [simpleicons](https://simpleicons.org/) and [shields.io](https://shields.io/)
