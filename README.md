@@ -31,6 +31,7 @@ No installation required. Access the deployed GitPages website [here.](https://j
 ![Deployed Website Screenshot](./images/deployed.png)
 
 ## Credits
+- Icons at [simpleicons](https://simpleicons.org/) and [shields.io](https://shields.io/)
 - Photos by <a href="https://unsplash.com/@martz90?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Martin Martz</a> on <a href="https://unsplash.com/photos/a-blue-and-purple-background-with-wavy-lines-FdxPbyHEw6Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 - Photo by <a href="https://unsplash.com/@abhi_2410?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Abhishek Tiwari</a> on <a href="https://unsplash.com/photos/qcimj8DMjLE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 - Photo by <a href="https://unsplash.com/@justatony?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tony Litvyak</a> on <a href="https://unsplash.com/photos/nHMyboz2XI8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
