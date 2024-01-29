@@ -220,16 +220,47 @@
           <h1>My Skills...</h1>
         </div>
         <div class="col-12 col-lg-7">
-          <div class="row my-2">
-            <div class="d-none d-lg-block col-lg-2"></div>
-            <div class="col-6 col-lg-4"><h4 class="my-0 text-start">Languages</h4></div>
-            <div class="d-none d-lg-block col-lg-1"></div>
-            div.col-6.col-lg-4
+
+          <div class="accordion my-5" id="skillsAccordion" style="--bs-bg-opacity: .5;">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#skillsAccordion">
+                <div class="accordion-body bg-transparent text-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#skillsAccordion">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#skillsAccordion">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="row my-2"></div>
-          <div class="row my-2"></div>
-          <div class="row my-2"></div>
         </div>
+
       </div>
 
       <!-- <div class="col-12 col-lg-7 container">
@@ -238,15 +269,15 @@
         </div>
         <div class="my-2">
           <h4 class="my-0 col-4 text-start">Libraries & Frameworks</h4>
-          <p class="my-0 col-5 text-end">React, Next.js, Bootstrap, jQuery, APIs, JSON, AJAX.</p>
+          <p class="my-0 col-5 text-end">React, Next.js, Bootstrap, jQuery, APIs, JSON, AJAX</p>
         </div>
         <div class="my-2">
           <h4 class="my-0 col-4 text-start">Tools & Platforms</h4>
-          <p class="my-0 col-5 text-end">Git, GitHub.</p>
+          <p class="my-0 col-5 text-end">Git, GitHub</p>
         </div>
         <div class="my-2">
           <h4 class="my-0 col-4 text-start">Other</h4>
-          <p class="my-0 col-5 text-end">Microsoft Office, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Google SketchUp, EMIS Web.</p>
+          <p class="my-0 col-5 text-end">Microsoft Office, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Google SketchUp, EMIS Web</p>
         </div>
       </div> -->
 

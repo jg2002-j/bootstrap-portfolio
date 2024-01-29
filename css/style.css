@@ -148,6 +148,34 @@ span.badge{
       border-radius: 5px;
 }
 
+.accordion-button:not(.collapsed) {
+      color: var(--alabaster);
+      background-color: transparent;
+      box-shadow: 0 0 0 0;
+}
+
+.accordion-button:focus {
+      z-index: 3;
+      border-color: var(--bs-accordion-btn-focus-border-color);
+      outline: 0;
+      box-shadow: 0 0 0 0;
+}
+
+.accordion-button {
+      background-color: transparent;
+}
+
+.accordion {
+      --bs-accordion-bg: transparent;
+}
+
+.accordion-body:not(.collapsed){
+      background-color: var(--cardinal-red);
+}
+
+.accordion-header{
+      font-weight: 600;
+}
 
 /* -------------------------- 
 |    CUSTOM CSS             |
